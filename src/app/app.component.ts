@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
  <router-outlet class="fad"></router-outlet>
   `,
 
-  styleUrls: ['./app.component.css',  '../styles.scss'],
+  styleUrls: ['./app.component.css'],
 
 
 
