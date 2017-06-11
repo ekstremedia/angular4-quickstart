@@ -1,6 +1,7 @@
 import { ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {WelcomeComponent} from './welcome/welcome.component';
+import {BildeComponent} from './bilde/bilde.component';
 
 const appRoutes: Routes = [
 	{
@@ -19,10 +20,10 @@ const appRoutes: Routes = [
 	// 	path: 'gullkorn',
 	// 	component: LandingComponent
 	// },
-	// {
-	// 	path: 'bilde',
-	// 	component: BildeComponent
-	// },	
+ {
+	 	path: 'bilde',
+	 	component: BildeComponent
+	 },	
 	// {
 	// 	path: 'artikkel',
 	// 	component: ArtikkelComponent
@@ -32,3 +33,4 @@ const appRoutes: Routes = [
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
+ 

@@ -8,10 +8,11 @@ import { MenyComponent } from './nav-bar/meny/meny.component';
 import { RouterModule, Routes } from '@angular/router';
 import 'gsap';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {BildeComponent} from './bilde/bilde.component';
 
 @NgModule({
   declarations: [
-    AppComponent, WelcomeComponent, NavBarComponent, MenyComponent
+    AppComponent, WelcomeComponent, NavBarComponent, MenyComponent, BildeComponent
   ],
   imports: [
     BrowserModule, routing, NgbModule.forRoot()
